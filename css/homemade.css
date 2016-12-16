@@ -2,10 +2,11 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: helvetica neue;
 }
 
 body {
-  background-image: url('../images/sky.png');
+  background-image: url('../images/Infinite_Mining_front_air_continu.png');
   background-repeat: repeat-x;
   background-size: cover;
 }
@@ -19,14 +20,52 @@ body {
   display: table-cell;
 }
 
-@media screen and (min-width: 993px){
-
+.card {
+  border-radius: 0;
+  z-index: 900;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 40px 0;
+  background-color: rgba(245, 245, 245, 0.42);
+  margin-top: 25%;
 }
+.card h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.card h3 {
+  margin-top: 2px;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.card .cta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card .cta button {
+  background-color: rgba(255, 255, 255, 0.68);
+  border: 1px solid;
+  padding: 10px 30px;
+  color: black;
+  margin: 0 4px;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.card .cta a:hover button {
+  background-color: #fff;
+}
+
+
 
 /* CSS FOR TABLET */
 @media screen and (max-width: 992px){
   body {
-    background-size: inherit;
+
   }
 
 }
