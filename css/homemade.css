@@ -10,7 +10,14 @@ body {
   background-size: cover;
 }
 
-
+.imagery {
+  display: table;
+  position: absolute;
+  bottom: 0;
+}
+.imagery img {
+  display: table-cell;
+}
 
 @media screen and (min-width: 993px){
 
