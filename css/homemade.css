@@ -1,45 +1,14 @@
-header {
-  background-image: url(../images/background.png);
-  height: 900px;
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('../images/sky.png');
+  background-repeat: repeat-x;
   background-size: cover;
 }
-
-.kaart {
-  background-color: #fff;
-  padding: 20px 40px;
-  text-align: left;
-  margin-top: 20%;
-}
-
-.kaart h1  {
-  font-size: 40px;
-}
-
-.kaart h3 {
-  font-size: 24px;
-}
-
-.kaart hr {
-
-  margin: 20px auto;
-
-}
-
-.kaart button {
-  background-color: #232323;
-  width: 47%;
-  padding: 10px 0;
-  color: #fff;
-  font-size: 20px;
-}
-.kaart button:hover {
-  background-color: black;
-}
-
-.kaart .cta .last {
-  margin-left: 5%;
-}
-
 
 
 
@@ -54,9 +23,6 @@ header {
 
 /* CSS FOR MOBILE */
 @media screen and (max-width: 600px){
-  header {
-    height: 1000px;
-  }
 
 }
 
