@@ -19,6 +19,7 @@ body {
 .imagery img {
   display: table-cell;
 }
+.card {}
 
 .card {
   border-radius: 0;
